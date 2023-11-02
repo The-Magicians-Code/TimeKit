@@ -3,7 +3,7 @@ Simplified datetime object manipulator
 
 ### Install
 ````
-pip3 install -r ./requirements.txt
+pip3 install -r requirements.txt
 ````
 
 ### Test Cases
