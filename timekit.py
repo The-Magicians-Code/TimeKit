@@ -34,11 +34,8 @@ def configure_time(time_zone: str="Europe/Tallinn", format: str="%d-%m-%YT%H:%M"
     https://dateutil.readthedocs.io/en/stable/relativedelta.html
     """
 
-    # Get current datetime object
-    result = datetime.now()
-    
-    # Configure timezone
-    result = result.astimezone(timezone(time_zone))
+    # Get current datetime object and configure it's timezone
+    result = datetime.now().astimezone(timezone(time_zone))
 
     # Only use the keyword arguments that are valid for the datetime.replace() method
     # https://docs.python.org/3/library/datetime.html#datetime.datetime.replace
