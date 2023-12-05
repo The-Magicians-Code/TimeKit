@@ -1,5 +1,5 @@
 # TimeKit
-Simplified [datetime](https://docs.python.org/3/library/datetime.html) object manipulator
+Simplified `[datetime](https://docs.python.org/3/library/datetime.html)` object manipulator
 
 ### Install
 ````
