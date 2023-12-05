@@ -8,6 +8,7 @@ pip3 install -r requirements.txt
 
 ### Test Cases
 ````python3
+#!/usr/bin/env python3
 import timekit
 
 # Get current datetime object in Europe/Tallinn timezone
