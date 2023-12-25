@@ -2,7 +2,7 @@ import pytest
 from dateutil.relativedelta import relativedelta
 from datetime import datetime
 from pytz import timezone
-from timekit import configure_time  # replace 'your_module' with the actual module name
+from src.timekit import configure_time  # replace 'your_module' with the actual module name
 
 # Test default settings
 def test_default_settings():
