@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import pytest
 from dateutil.relativedelta import relativedelta
+from src.timekit import configure_time
 from datetime import datetime
 from pytz import timezone
-from src.timekit import configure_time  # replace 'your_module' with the actual module name
 
 # Test default settings
 def test_default_settings():
