@@ -6,7 +6,7 @@ Simplified [`datetime`](https://docs.python.org/3/library/datetime.html) object 
 pip3 install -r requirements.txt
 ````
 
-### Test Cases
+### Examples
 ````python3
 #!/usr/bin/env python3
 import timekit
