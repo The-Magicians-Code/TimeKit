@@ -11,11 +11,13 @@ def configure_time(time_zone: str="Europe/Tallinn", format: str="%d-%m-%YT%H:%M"
     """
     Configure datetime object based on the given keyword arguments.
 
-    :param time_zone: (str) Timezone to use (default "Europe/Tallinn").
-    :param format: (str) Format to use (default "%d-%m-%YT%H:%M").
-    :param kwargs: (dict) Keyword arguments to manipulate the datetime object.
-
-    :return: (str) Datetime object as a string.
+    Args:
+        time_zone: (str) Timezone to use (default "Europe/Tallinn").
+        format: (str) Format to use (default "%d-%m-%YT%H:%M").
+        kwargs: (dict) Keyword arguments to manipulate the datetime object.
+        
+    Returns: 
+        result: (str) Datetime object as a string.
 
     Example:
     # Get the last day of the previous month in Europe/London timezone
